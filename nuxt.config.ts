@@ -5,5 +5,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-echarts', 'nuxt-headlessui'],
   headlessui: {
     prefix: 'Hl'
+  },
+  css:[
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
+  build: {
   }
 })
