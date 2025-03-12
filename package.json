@@ -20,7 +20,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.13.2",
     "nuxt-echarts": "^0.2.6",
-    "nuxt-headlessui": "^1.2.0"
+    "nuxt-headlessui": "^1.2.0",
+    "sass": "^1.85.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
