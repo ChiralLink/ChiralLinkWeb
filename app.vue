@@ -10,6 +10,9 @@ provideHeadlessUseId(() => useId())
 </script>
 <style lang="scss">
 body {
-  background-color: $background;
+  background-color: $background-1;
+}
+* {
+  @extend .text-default;
 }
 </style>

@@ -1,0 +1,21 @@
+@use '_variables.scss' as *;
+.text-default {
+  color: $text-1;
+}
+.text-2 {
+  color: $text-2;
+}
+.background-default {
+  background-color: $background-1;
+}
+.background-2 {
+  background-color: $background-2;
+}
+
+.float-card {
+  @extend .background-2;
+  transition: transform 0.3s ease; // 添加过渡效果
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
